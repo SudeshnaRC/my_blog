@@ -1,0 +1,108 @@
+.background {
+    background-image: url('../assets/desk.webp'); /* Adjust path based on your file structure */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333; /* Optional: text color */
+  }
+
+  .projector {
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    padding: 0;
+    transform: scale(1.11);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+  
+  .projector:hover {
+    transform: scale(1.35);
+  }
+
+.teacup {
+  position: absolute;
+  top: 40%;
+  left: 19%;
+  transform: scale(2.5);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.openbook {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  transform: scale(1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.notebook {
+  position: absolute;
+  top: 43%;
+  left: 41%;
+  transform: scale(2.28);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.notebook:hover {
+  transform: scale(2.5);
+}
+
+.coin {
+  position: absolute;
+  top: 40%;
+  right: 15%;
+  transform: scale(1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.magnifyingglass{
+  position: absolute;
+  top: 0%;
+  left: 23%;
+  transform: scale(1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.magnifyingglass:hover {
+  transform: scale(1.5);
+}
+
+.telephone{
+  position: absolute;
+  bottom: -10%;
+  right: -8%;
+  transform: scale(1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.telephone:hover {
+  transform: scale(1.5);
+}
+
+.crumpledpaper{
+  position: absolute;
+  top: -2%;
+  right: 23%;
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
